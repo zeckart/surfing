@@ -1,0 +1,18 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin position-equal($value) {
+  -webkit-border-radius: $value;
+     -moz-border-radius: $value;
+      -ms-border-radius: $value;
+          border-radius: $value;
+}
+@mixin smallLigueSpartan(){
+	font-family: 'LeagueSpartanBold', sans-serif;
+	text-transform: uppercase;
+	font-size: .5625em;
+	letter-spacing: 0.62em;
+}
